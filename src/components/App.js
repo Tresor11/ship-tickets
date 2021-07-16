@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../containers/Nav';
 
 const App = () => (
-  <div>
+  <div className="bg-gray-50">
     <NavBar />
   </div>
 );
