@@ -8,9 +8,11 @@ import {
 
 const fetchShips = () => async (dispatch) => {
   dispatch(fetchDataPending());
+  console.log('fetching ships...');
   try {
     const response = await axios.get(`${endpoint}/ships`);
     const data = await response.data;
+    console.log(data);
     dispatch(fetchDataSuccess(data));
   } catch (ex) {
     dispatch(fetchDataError(ex.message));
