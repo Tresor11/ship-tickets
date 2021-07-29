@@ -6,14 +6,14 @@ import {
   endpoint,
 } from './index';
 
-const fetchShips = () => async (dispatch) => {
+const fetchCities = async (dispatch) => {
   dispatch(fetchDataPending());
   try {
-    const response = await axios.get(`${endpoint}/ships`);
+    const response = await axios.get(`${endpoint}/cities`);
     dispatch(fetchDataSuccess(response.data));
-  } catch (ex) {
-    dispatch(fetchDataError(ex.message));
+  } catch (error) {
+    dispatch(fetchDataError(error));
   }
 };
 
-export default fetchShips;
+export default fetchCities;
