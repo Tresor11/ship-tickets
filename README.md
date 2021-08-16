@@ -16,7 +16,7 @@
 
 ## Website
 
-Live Demo Link](https://ship-tickets.netlify.app/)
+[Live Demo Link](https://ship-tickets.netlify.app/)
 
 ## Getting Started
 
