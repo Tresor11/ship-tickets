@@ -1,12 +1,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d3e2b909-bdf2-44cf-8ad0-73eb45344b6a/deploy-status)](https://app.netlify.com/sites/ship-tickets/deploys)
-# Shipt Tickets.
+# Ship Tickets.
 
 
-#### Shipt-tickets is a web app for listing ships travel shecdules and prices between bukavu and goma(for the moment)
+#### Ships-tickets is a web app for listing ships travel schedules and prices between different cities /regions (support for bukavu and goma for the moment)
 
 ## Built With
 
-- javaScript
+- JavaScript
 - React
 - Rails
 - Redux
@@ -16,7 +16,7 @@
 
 ## Website
 
-[Live Demo Link](https://ship-tickets.netlify.app/)
+[Live Demo Link](https://recipes-catalogue.netlify.app/)
 
 ## Getting Started
 
@@ -30,25 +30,25 @@ Here are the steps to follow in order to get this project on your local computer
 
 ### Setup
 
-clone this repo by typing `git clone`
+Clone this repo by typing `git clone`
 
 ### Install
 
-install the dependacies by typing `npm install`
+Install the dependacies by typing `npm install`
 
 ### Usage
 
-start the local server by running `npm start`
+Start the local server by running `npm start`
 
 ### Deployment
 
-this project is deployed on heroku
+This project is deployed on heroku
 
-to get the deployment build of the code run `npm run build`
+To get the deployment build of the code run `npm run build`
 
 ### Testing
 
-this project uses jest from testing , to run the tests type `npm test` 
+This project uses `jest` from testing , to run the tests type `npm test` 
 
 ## Contributors
 
