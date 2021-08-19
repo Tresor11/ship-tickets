@@ -30,7 +30,7 @@ Here are the steps to follow in order to get this project on your local computer
 
 ### Setup
 
-Clone this repo by typing `git clone`
+Clone this repo by typing `git clone https://github.com/Tresor11/ship-tickets.git`
 
 ### Install
 
