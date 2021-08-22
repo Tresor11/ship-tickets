@@ -1,7 +1,7 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import logo from '../images/logo.svg';
-import fetchShips from '../actions/fetchShips';
+import React from "react";
+import { connect } from "react-redux";
+import logo from "../images/logo.svg";
+import fetchShips from "../actions/fetchShips";
 
 const NavBar = (props) => {
   const { fetchShips, store } = props; //eslint-disable-line
@@ -17,9 +17,17 @@ const NavBar = (props) => {
 
       <div>
         <ul className="font-semibold text-gray-600">
-          <li className="inline mx-4 hover:text-gray-800"><a href="www.ships.com" onClick={handleClick}>Trips</a></li>
-          <li className="inline mx-4 hover:text-gray-800"><a href="www.ships.com">Cities</a></li>
-          <li className="inline mx-4 px-4 py-2 border-2 border-purple-300 rounded bg-white hover:bg-purple-100 cursor-pointer"><a href="www.ships.com">Login</a></li>
+          <li className="inline mx-4 hover:text-gray-800">
+            <a href="www.ships.com" onClick={handleClick}>
+              Trips
+            </a>
+          </li>
+          <li className="inline mx-4 hover:text-gray-800">
+            <a href="www.ships.com">Cities</a>
+          </li>
+          <li className="inline mx-4 px-4 py-2 border-2 border-purple-300 rounded bg-white hover:bg-purple-100 cursor-pointer">
+            <a href="www.ships.com">Login</a>
+          </li>
         </ul>
       </div>
     </div>

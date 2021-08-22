@@ -1,9 +1,9 @@
-import React from 'react';
-import NavBar from '../containers/Nav';
+import React from "react";
+import Home from "../containers/Home";
 
 const App = () => (
   <div>
-    <NavBar />
+    <Home />
   </div>
 );
 
