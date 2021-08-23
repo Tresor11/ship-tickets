@@ -1,7 +1,7 @@
-import React from "react";
-import { connect } from "react-redux";
-import logo from "../images/logo.svg";
-import fetchShips from "../actions/fetchShips";
+import React from 'react';
+import { connect } from 'react-redux';
+import logo from '../images/logo.svg';
+import fetchShips from '../actions/fetchShips';
 
 const NavBar = (props) => {
   const { fetchShips, store } = props; //eslint-disable-line
