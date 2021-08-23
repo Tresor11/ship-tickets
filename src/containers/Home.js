@@ -1,12 +1,18 @@
 import React from "react";
-import ship from "../images/ship.jpg";
-import Nav from "../containers/Nav";
+import ship from "../images/home-backgroung.jpg";
+import SearchWidget from "./SearchWidget";
+// import Nav from './Nav';
+
 const Home = () => (
   <div className="flex-col justify-center flex item-start">
     <div className="w-full mx-auto">
       <div className="relative overflow-hidden h-screen">
-        <img src={ship} className="absolute h-full w-full object-cover" />
-        <div className="inset-0 bg-black opacity-25 absolute"></div>
+        <img
+          src={ship}
+          alt="background_cover"
+          className="absolute h-full w-full object-cover"
+        />
+        <div className="inset-0 bg-black opacity-25 absolute" />
 
         <div class="container w-200 mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-30">
           <div class="w-full flex flex-col items-center relative z-10 gap-30">
